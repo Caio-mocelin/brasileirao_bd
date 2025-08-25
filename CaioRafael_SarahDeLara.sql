@@ -1,5 +1,5 @@
 CREATE DATABASE bd_brasileirao;
-USE Brasileirao;
+USE bd_brasileirao;
 
 CREATE TABLE tb_classificacao(
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -15,7 +15,7 @@ CREATE TABLE tb_classificacao(
     saldo_gols INT NOT NULL
 );
 
-INSERT INTO Classificacao VALUES
+INSERT INTO tb_classificacao VALUES
 (null, 1, 'Flamengo', 43, 19, 13, 4, 2, 36, 9, 27),
 (null, 2, 'Palmeiras', 39, 18, 12, 3, 3, 24, 15, 9),
 (null, 3, 'Cruzeiro', 38, 20, 11, 5, 4, 32, 14, 18),
